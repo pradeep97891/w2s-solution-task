@@ -24,7 +24,7 @@ class Login extends React.Component {
   handle_login = () => {
 
     if ((this.state.email).trim() === '') {
-      alert('i')
+    
       this.setState({
         error_msg: 'Please enter your email address'
       })
