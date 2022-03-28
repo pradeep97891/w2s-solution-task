@@ -1,0 +1,63 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+.container-a {
+  margin-top: 80px;
+}
+.button-rad{
+ border-radius: 30px !important;
+}
+.b-img {
+  background-color: #000842;
+  /* background-image: url(../public/logo.svg);
+  background-repeat: no-repeat; */
+
+
+}
+.nav-color {
+  color:white !important;
+}
+.profile-img {
+margin-right: 40px;
+height: 20px;
+margin-bottom: 5px;
+cursor: pointer;
+}
+Form [type=text]{
+  border-bottom: 1px solid grey;
+}
+.box{
+  width: 100%;
+  height: 400px;
+  border-radius: 10px;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.showpassword-icon{
+  position: absolute;
+  right: 0.625rem;
+  bottom: 0.75rem;
+  width: 1.438rem;
+  cursor: pointer;
+}
+.icon{
+  width: 200px;
+  height: 200px;
+  transition:all 0.4s linear;
+}
+.icon:hover{
+  transform: rotate(360deg);
+  transition: all 0.4s linear;
+}
